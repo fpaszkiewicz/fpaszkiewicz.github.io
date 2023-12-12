@@ -1,0 +1,173 @@
+body {
+    color:darkcyan;
+    font-family: cursive;
+    background-color: #b2daed;
+    background-image: url('rick&morty.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box {
+    color: darkcyan;
+    font-family: cursive;
+    background-color: rgba(247,240,123, 0.5);
+    border: solid;
+    border-radius: 5px;
+    padding: 10px 15px 5px 10px;
+    width: 300px;
+}
+
+.container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 100px 10px 100px;
+    width: 100vh;
+    margin-top: 50px;
+}
+
+
+img {
+    border-color: darkcyan;
+    border-width: 5px;
+    border: solid;
+    border-radius: 5px;
+}
+
+#header {
+    position: fixed;
+    background-color: rgba( 47, 79, 79, 0.9);
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding: 10px;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headerBotton {
+    width: 125px;
+    background-color: #b2daed;
+    border: solid;
+    border-color: darkcyan;
+    height: 40px;
+    border-radius: 5px;
+    font-family: cursive;
+    margin-top: 5px;
+    transition: all .2s;
+}
+
+.headerBotton:hover {
+    background-color: #9fded5;
+}
+
+.lookingForButton {
+    width: 60px;
+    background-color: #b2daed;
+    border: solid;
+    border-color: darkcyan;
+    height: 38px;
+    border-radius: 5px;
+    font-family: cursive;
+    transition: all .2s;
+}
+
+.lookingForButton:hover {
+    background-color: #9fded5;
+}
+
+.lookingForField {
+    width: 180px;
+    background-color: #b2daed;
+    border: solid;
+    border-color: darkcyan;
+    height: 30px;
+    border-radius: 5px;
+    font-family: cursive;
+    transition: all .2s;
+}
+
+.lookingForField:hover {
+    background-color: #9fded5;
+}
+
+#spec {
+    width: 550px;
+    background-color: rgba(247,240,123, 0.5);
+    padding: 10px;
+    border: solid;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 20%;
+}
+
+#imgSpec {
+    float: right;
+}
+
+.return {
+    width: 180px;
+    background-color: rgba(178,218,237, 0.5);
+    border: solid;
+    border-color: darkcyan;
+    height: 30px;
+    border-radius: 5px;
+    font-family: cursive;
+    height: 120px;
+    transition: all .2s;
+}
+.return:hover {
+    background-color: rgba(178,218,237, 0.8);
+}
+
+.return2 {
+    width: 180px;
+    background-color: rgba(178,218,237, 0.5);
+    border: solid;
+    border-color: darkcyan;
+    height: 30px;
+    border-radius: 5px;
+    font-family: cursive;
+    height: 120px;
+    transition: all .2s;
+    float: right;
+}
+
+.return2:hover {
+    background-color: rgba(178,218,237, 0.8);
+}
+
+.returnSome {
+    border: solid;
+    border-color: darkcyan;
+    border-radius: 5px;
+    font-family: cursive;
+    background-color: rgba(247,240,123, 0.5);
+    font-size: 40px;
+    color: darkcyan;
+    transition: all .2s;
+}
+
+.returnSome:hover {
+    background-color: rgba(247,240,123, 0.8);
+}
+
+.wToGo {
+    width: 150px;
+    background-color: #b2daed;
+    border: solid;
+    border-color: darkcyan;
+    height: 80px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 20px;
+    transition: all .2s;
+}
+
+.wToGo:hover {
+    background-color: #9fded5;
+}
